@@ -1,0 +1,11 @@
+number = int(input("Enter an integer input :"))
+if number < 0:
+    number = 0
+    print("value negative to zero changed")
+elif number == 0:
+    print("value is zero")
+elif number == 1:
+    print("value is single")
+else :
+    print("more number")
+
